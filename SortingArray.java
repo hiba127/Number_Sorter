@@ -3,18 +3,19 @@ import java.io.*;
 
 public class SortingArray {
 
+    ArrayList<Integer> arr;
+
     public SortingArray(){
 
-    ArrayList<Integer> arr = new ArrayList<Integer>();
+    arr = new ArrayList<Integer>();
     }
 
     public void newNum(int n){
         arr.add(n);
     }
 
-    public void display(){
-
+    public void sorting(ArrayList<Integer> arr){
+        Collections.sort(arr);
     }
-
 
 }
